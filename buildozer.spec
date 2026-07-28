@@ -1,4 +1,3 @@
-
 [app]
 source.dir = .
 title = Lukaris Adventures

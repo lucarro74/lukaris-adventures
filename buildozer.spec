@@ -10,4 +10,9 @@ orientation = landscape
 osx.python_version = 3
 osx.app_target_version = 10.9
 
+android.api = 33
+android.min_api = 21
+android.build_tools_version = 33.0.2
+
+
 

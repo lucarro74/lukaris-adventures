@@ -9,3 +9,5 @@ requirements = python3,pygame,sdl2_image,sdl2_mixer,sdl2_ttf,sdl2
 orientation = landscape
 osx.python_version = 3
 osx.app_target_version = 10.9
+
+

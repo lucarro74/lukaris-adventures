@@ -13,6 +13,11 @@ osx.app_target_version = 10.9
 android.api = 33
 android.min_api = 21
 android.build_tools_version = 33.0.2
+      - name: Build with Buildozer
+        run: |
+          buildozer clean
+          buildozer -v android debug
+
 
 
 

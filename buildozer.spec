@@ -1,23 +1,45 @@
 [app]
-source.dir = .
+
+# Nombre de la aplicación
 title = Lukaris Adventures
+
+# Carpeta donde está tu código
+source.dir = .
+
+# Nombre del paquete
 package.name = lukarisadventures
+
+# Dominio del paquete
 package.domain = org.lukaris
-source.include_exts = py,png,jpg,kv,atlas,wav,ogg
+
+# Archivos que se incluirán
+source.include_exts = py,png,jpg,jpeg,kv,atlas,wav,ogg
+
+# Versión
 version = 0.1
-requirements = python3,pygame,sdl2_image,sdl2_mixer,sdl2_ttf,sdl2
+
+# Dependencias de Python
+requirements = python3,pygame
+
+# Orientación de la pantalla
 orientation = landscape
-osx.python_version = 3
-osx.app_target_version = 10.9
 
+# Android
 android.api = 33
-android.min_api = 21
+android.minapi = 21
 android.build_tools_version = 33.0.2
-      - name: Build with Buildozer
-        run: |
-          buildozer clean
-          buildozer -v android debug
 
+# Aceptar licencia del SDK
+android.accept_sdk_license = True
+
+# Arquitectura
+android.arch = arm64-v8a
+
+# Mostrar información durante la compilación
+log_level = 2
+
+# Pantalla completa
+fullscreen = 1
 
 
 

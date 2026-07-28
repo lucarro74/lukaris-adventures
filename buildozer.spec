@@ -1,6 +1,5 @@
 [app]
 source.dir = .
-
 title = Lukaris Adventures
 package.name = lukarisadventures
 package.domain = org.lukaris
